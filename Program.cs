@@ -1,11 +1,42 @@
 ﻿using System.Diagnostics.Contracts;
 using ExemploPOO.Models;
 
-ContaCorrente c1 = new ContaCorrente(123,1000);
+Aluno a1 = new Aluno();
 
-c1.ExibirSaldo();
-c1.Sacar(5000);
-c1.ExibirSaldo();
+a1.Nome = "Milton";
+a1.Idade = 37;
+a1.Apresentar();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ContaCorrente c1 = new ContaCorrente(123,1000);
+
+//c1.ExibirSaldo();
+//c1.Sacar(5000);
+//c1.ExibirSaldo();
 
 // Pessoa p1 = new Pessoa();
 
