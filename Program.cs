@@ -1,4 +1,10 @@
 ﻿using ExemploPOO.Models;
+using ExemploPOO.Interfaces;
+using System.Net.NetworkInformation;
+
+ICalculadora calc = new Calculadora();
+
+Console.Write(calc.Multiplicar(3,9));
 
 
 
@@ -26,6 +32,11 @@
 
 
 
+
+// Pessoa p1 = new Pessoa("Milton");
+// Aluno a1 = new Aluno("Felipe");
+// a1.Apresentar();
+// Professor prof = new Professor();
 
 // Corrente c = new Corrente();
 // c.Creditar(500);
